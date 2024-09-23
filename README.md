@@ -1,5 +1,5 @@
 # B-i_Lab
-nộp bài lab theo tuần 
+BÀI 1: Phân phối Bernoulli và Multinomial
 1. Công nghệ sử dụng của bài lab này là gì (framework sử dụng)
    + sklearn
    + pandas
@@ -8,3 +8,9 @@ nộp bài lab theo tuần
    + Bernoulli Naive Bayes
 3. Hiển thị kết quả lên website
 
+BÀI 2:Phân phối Gaussian
+1. Công nghệ sử dụng của bài lab này là gì (framework sử dụng)
+   + sklearn
+   + pandas
+2.Thuật toán Machine Learning sử dụng là gì
+    + Áp dụng thuật toán Naive Bayes (phân phối Gaussian)
