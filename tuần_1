@@ -1,0 +1,112 @@
+## HTML
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về bản thân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Thông tin về bản thân </h1>
+    </header>
+
+    <section class="about">
+        <h2>Thông tin cơ bản </h2>
+        <p>
+            Họ tên: Lý Minh Tài
+        </p>
+        <p>
+            MSSV: 2274802010770
+        </p>
+        <P>
+            Ngành: Công nghệ thông tin ( information technology)
+      </p>
+      <p>
+        Chuyên ngành: Trí tuệ nhân tạo (Artificial Intelligence - AI)
+    </section>
+
+    <section class="skills">
+        <h2>Kỹ năng </h2>
+        <ul>
+            <li>Kỹ năng 1: Lập trình Python</li>
+            <li>Kỹ năng 2: Lập trình java</li>
+            <li>Kỹ năng 3: Giao tiếp </li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: tai.2274802010770@vanlanguni.vn </p>
+        
+    </section>
+
+</body>
+</html>
+
+
+## CSS
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #98f5ff;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #00ced1;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Skills list */
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Contact section */
+.contact p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
